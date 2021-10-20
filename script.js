@@ -14,7 +14,7 @@ $(document).ready(function() {
     }, 600);
     return false;
   });
-  
+
   //NAV - JUMP TO SECTION
   $("a[href^=\\#]").on("click", function(event) {
     var target = $(this.getAttribute("href"));
@@ -24,9 +24,9 @@ $(document).ready(function() {
         scrollTop: target.offset().top - 130
       }, 800);
     }
-  });  
-  
-  // READ MORE/LESS 
+  });
+
+  // READ MORE/LESS
   $(".read-more-button").click(function() {
     $(".read-more-dots, .read-more-content").toggle();
     $(this).toggleClass("active-link");
@@ -34,9 +34,7 @@ $(document).ready(function() {
       $(".read-more-button").html("Read Less <i class='fas fa-caret-up'></i>");
     } else {
       $(".read-more-button").html("Read More <i class='fas fa-caret-down'></i>");
-    } 
-  }); 
-  
-  
+    }
+  });
   
 });
