@@ -1,4 +1,4 @@
-**Single Page Resource Guide**
+**Real Estate Listing Page**
 
 [https://codepen.io/gfree/full/qBXdrjO](https://codepen.io/gfree/full/qBXdrjO)
 
